@@ -1,0 +1,42 @@
+// FOOTER
+footer{
+    overflow: hidden;
+    background-image: url("/imgs/footer-bg.jpg");
+    &>.wrap{
+        display: flex;
+    }
+    ul{
+      list-style: none;  
+    }
+    h3{
+        color: white;
+    }
+    a{
+        text-transform: none;
+        color: #aaaaaa;
+    }
+    .logo-container{
+        flex-grow: 1;
+        background-image: url('/imgs/dc-logo-bg.png');
+        background-position: center;
+        background-size: cover;
+    }
+    .footer-bottom{
+        .btn{
+            border: 1px solid $primaryColor;
+            padding: 10px;
+            color: white;
+            font-weight: 700;
+        }
+        padding: 20px;
+        background-color: #303030;
+        h3{
+            color: $primaryColor;
+            margin: 0px 15px;
+        }
+        img{
+            display: inline-block;
+            margin: 7px;
+        }
+    }
+}

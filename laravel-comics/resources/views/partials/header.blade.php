@@ -9,8 +9,8 @@
     <nav class="wrap flex">
         <div class="logo-container"><img src="{{asset('imgs/dc-logo.png')}}" alt=""></div>
         <div class="links">
-            <a href="">CHARACTERS</a> 
-            <a href="">COMICS</a> 
+            <a href="{{route('characters')}}">CHARACTERS</a> 
+            <a href="{{route('comics')}}">COMICS</a> 
             <a href="">MOVIES</a> 
             <a href="">TV</a> 
             <a href="">GAMES</a> 
