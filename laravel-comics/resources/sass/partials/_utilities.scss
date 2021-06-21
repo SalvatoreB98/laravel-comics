@@ -9,3 +9,25 @@
       padding: #{$i/2}em ;
     }
   }
+.active{
+  border-bottom: 7px solid $primaryColor ;
+}
+.flex-grow{
+  flex-grow: 1;
+  justify-content: space-between
+}
+.border-right{
+  border-right: 1px solid black;
+}
+.btn{
+  cursor: pointer;
+}
+.half-width{
+  width: 50%;
+}
+.full-width{
+  width: 100%;
+}
+.full-width:first-of-type{
+  padding-right: $spacing-4;
+}

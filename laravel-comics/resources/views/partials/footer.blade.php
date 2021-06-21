@@ -58,11 +58,11 @@
             <div>
                 <div class="flex">
                     <h3>FOLLOW US</h3>
-                    <img src="{{asset('imgs/footer-facebook.png')}}" alt="">
-                    <img src="{{asset('imgs/footer-twitter.png')}}" alt="">
-                    <img src="{{asset('imgs/footer-youtube.png')}}" alt="">
-                    <img src="{{asset('imgs/footer-pinterest.png')}}" alt="">
-                    <img src="{{asset('imgs/footer-periscope.png')}}" alt="">
+                    <a href=""><img src="{{asset('imgs/footer-facebook.png')}}" alt=""></a>
+                    <a href=""><img src="{{asset('imgs/footer-twitter.png')}}" alt=""></a>
+                    <a href=""><img src="{{asset('imgs/footer-youtube.png')}}" alt=""></a>
+                    <a href=""><img src="{{asset('imgs/footer-pinterest.png')}}" alt=""></a>
+                    <a href=""><img src="{{asset('imgs/footer-periscope.png')}}" alt=""></a>
                 </div>
             </div>
         </div>

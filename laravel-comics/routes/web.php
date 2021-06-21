@@ -22,3 +22,10 @@ Route::get('/', function () {
 Route::get('/Personaggi', function () {
     return view('characters');
 })->name("characters");
+
+Route::get('/comic/{index}', function ($index) {
+    $data = config("comics");
+    $selectedComic = $data[$index];
+    @dump($selectedComic);
+    return view('comic',["comic" => $selectedComic]);
+})->name("comic");

@@ -24,6 +24,35 @@
   padding: 2.5em;
 }
 
+.active {
+  border-bottom: 7px solid #0282F9;
+}
+
+.flex-grow {
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-width:first-of-type {
+  padding-right: 25px;
+}
+
 html,
 body {
   background-color: #fff;
@@ -195,6 +224,7 @@ footer .footer-bottom .btn {
   padding: 10px;
   color: white;
   font-weight: 700;
+  cursor: pointer;
 }
 
 footer .footer-bottom h3 {
@@ -205,5 +235,69 @@ footer .footer-bottom h3 {
 footer .footer-bottom img {
   display: inline-block;
   margin: 7px;
+}
+
+.bar {
+  height: 100px;
+  background-color: #0282F9;
+  position: relative;
+}
+
+.bar .img-container {
+  position: absolute;
+  bottom: 25%;
+  border: 1px solid white;
+}
+
+.bar .img-container .description {
+  text-align: center;
+  color: white;
+  background-color: #ffffff4f;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.price-bar {
+  color: #6fff93;
+  font-weight: 600;
+  margin: 25px 0px;
+  background-color: #55BA59;
+  display: flex;
+  box-shadow: 0px 2px 0.5px #535353;
+  justify-content: space-between;
+}
+
+.price-bar span {
+  color: white;
+}
+
+.price-bar > div {
+  display: flex;
+}
+
+.comic-content {
+  margin-top: 50px;
+  display: flex;
+}
+
+.comic-content p {
+  margin-bottom: 50px;
+}
+
+.horizontal-line {
+  margin: 5px 0px;
+  border-bottom: 1px solid #70707070;
+}
+
+.specs {
+  margin: 25px 0;
+  display: flex;
+}
+
+.specs h5 {
+  padding: 20px;
+  flex-basis: 250px;
 }
 
