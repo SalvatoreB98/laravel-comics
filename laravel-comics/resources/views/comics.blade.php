@@ -9,7 +9,6 @@
     </div>
 
     <div class="current wrap">
-        @dump($comicsList);
         @foreach($comicsList as $key => $comic)
         <div class="comic-container padding-2">
             <a href="{{'/comic/'.$key }}">

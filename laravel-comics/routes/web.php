@@ -26,6 +26,5 @@ Route::get('/Personaggi', function () {
 Route::get('/comic/{index}', function ($index) {
     $data = config("comics");
     $selectedComic = $data[$index];
-    @dump($selectedComic);
     return view('comic',["comic" => $selectedComic]);
 })->name("comic");
