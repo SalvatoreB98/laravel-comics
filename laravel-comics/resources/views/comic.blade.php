@@ -1,5 +1,5 @@
 @extends('layout.default')
-@section('pageTitle', $comic['title']);
+@section('pageTitle', $comic['title'])
 @section('content')
 <div class="bar">
     <div class="wrap">
